@@ -1,0 +1,72 @@
+
+header {
+	background-color: blue;
+	height: 40px
+}
+
+#header-menu {
+	background-color: orange;
+	height: 70px
+}
+
+#article {
+	background-color: green;
+	height: 5000px;
+}
+
+#recent-comment {
+	background-color: violet;
+	float:right;
+	width: 290px;
+}
+
+#article-content {
+	background-color: yellow;
+}
+
+#bottom-menu {
+	background-color: purple;
+	position:relative;
+}
+
+#bottom-right-menu {
+	background-color: olive;
+	float:right;
+	width: 300px;
+	height:582px;
+}
+
+#bottom-left-menu {
+	background-color: aqua;
+	margin-right: 310px;
+}
+
+#bottom-left-upper-menu {
+	background-color: lime;
+	height: 417px;
+}
+
+#bottom-left-lower-menu {
+	background-color: navy;
+	height: 200px;
+}
+
+#blank-after-bottom-menu {
+	background-color: magenta;
+	clear: both;
+	height: 150px;
+}
+
+footer {
+	background-color: red;
+}
+
+#upper-footer {
+	background-color: grey;
+	height: 465px;
+}
+
+#lower-footer {
+	background-color: pink;
+	height: 66px;
+}
