@@ -1,32 +1,54 @@
 
 header {
 	background-color: blue;
-	height: 40px
+	height: 40px;
+	text-align: center;
+	font-size: 250%;
+	font-weight: bold;
 }
 
 #header-menu {
 	background-color: orange;
-	height: 70px
+	height: 70px;
+}
+
+#header-menu > ol {
+	margin: 0 auto;
+	position: relative;
+}
+
+#header-menu > ol > li {
+	background-color: white;
+	width: 220px;
+	height: 66px;
+	float: left;
+	margin-right: 30px;
 }
 
 #article {
 	background-color: green;
 	height: 5000px;
+	margin: 0 auto;
 }
 
 #recent-comment {
 	background-color: violet;
 	float:right;
 	width: 290px;
+	height: 60%;
 }
 
 #article-content {
 	background-color: yellow;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 200%;
+	font-weight: bold;
 }
 
 #bottom-menu {
 	background-color: purple;
-	position:relative;
+	position: relative;
 }
 
 #bottom-right-menu {
@@ -34,6 +56,19 @@ header {
 	float:right;
 	width: 300px;
 	height:582px;
+	font-weight: bold;
+}
+
+#bottom-right-menu > ol {
+	margin: 0 auto;
+}
+
+#bottom-right-menu > ol > li {
+	width: 250px;
+	height:50px;
+	margin-bottom: 5px;
+	background-color: white;
+	
 }
 
 #bottom-left-menu {
@@ -44,15 +79,59 @@ header {
 #bottom-left-upper-menu {
 	background-color: lime;
 	height: 417px;
+	position: relative;
+	font-weight: bold;
+}
+.menu-layout-horizontal-theme-story {
+	background-color: white;
+	width: 180px;
+	height: 180px;
+	list-style-type: none;
+}
+
+#menu-layout-horizontal-theme-story-haut-gauche { 
+	float:left;
+	
+}
+#menu-layout-horizontal-theme-story-haut-milieu {
+	float:left;
+	margin-left: 50px;
+}
+
+#menu-layout-horizontal-theme-story-haut-droite{
+	float:left;
+	margin-left: 50px;
+}
+
+#menu-layout-horizontal-theme-story-bas-gauche{
+	float:left;
+	margin-top: 10px;
+}
+
+#menu-layout-horizontal-theme-story-bas-milieu{
+	float:left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+#menu-layout-horizontal-theme-story-bas-droite{
+	float:left;
+	margin-top: 10px;
+	margin-left: 50px;
 }
 
 #bottom-left-lower-menu {
 	background-color: navy;
 	height: 200px;
+	font-weight: bold;
+}
+
+#bottom-left-lower-menu > ul {
+	margin: 0 auto;
 }
 
 #blank-after-bottom-menu {
-	background-color: magenta;
+	background-color: white;
 	clear: both;
 	height: 150px;
 }
@@ -62,8 +141,48 @@ footer {
 }
 
 #upper-footer {
+	background-color: indigo;
+	height: 465px;
+	position: relative;
+	font-weight: bold;
+}
+
+#upper-footer-colum {
 	background-color: grey;
 	height: 465px;
+	position: relative;
+}
+
+.upper-footer-colum {
+	float:left;
+	width: 160px;
+	height: 97%;
+}
+
+#upper-footer-colum1 {
+	background-color: ivory;
+}
+
+#upper-footer-colum2 {
+	background-color: salmon;
+}
+
+#upper-footer-colum3 {
+	background-color: tomato;
+}
+
+#upper-footer-colum4 {
+	background-color: gold;
+}
+
+#upper-footer-colum5 {
+	background-color: chocolate;
+}
+
+#upper-footer-colum6 {
+	background-color: lightgreen;
+	margin-left: 710px;
+	height: 97%;
 }
 
 #lower-footer {
